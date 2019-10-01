@@ -8,6 +8,5 @@ secretNum = random.randint(1,100)
 
 for numGuesses in range(1,10):
     print('Take a guess!')
-    userGuess = int(intput()) #make users guess an int to be comparable to our secretnum
+    userGuess = int(input()) #make users guess an int to be comparable to our secretnum
 
-    
